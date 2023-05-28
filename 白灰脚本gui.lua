@@ -61,7 +61,7 @@ VHubImage.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImage.BackgroundTransparency = 1.000
 VHubImage.Position = UDim2.new(0.00999999978, 0, 0, 0)
 VHubImage.Size = UDim2.new(0, 30, 0, 30)
-VHubImage.Image = "rbxassetid://"
+VHubImage.Image = "rbxassetid://13429676701"
 
 VHubAndSection.Name = "VHubAndSection"
 VHubAndSection.Parent = InfoBar
@@ -88,7 +88,7 @@ VHubImage_2.BackgroundColor3 = Color3.fromRGB(255, 255, 255)
 VHubImage_2.BackgroundTransparency = 1.000
 VHubImage_2.Position = UDim2.new(0.0288888887, 10, 0.150000006, 0)
 VHubImage_2.Size = UDim2.new(0, 80, 0, 80)
-VHubImage_2.Image = "rbxassetid://"
+VHubImage_2.Image = "rbxassetid://13429676701"
 
 VersionOutdatedText.Name = "VersionOutdatedText"
 VersionOutdatedText.Parent = MainFrame
@@ -109,7 +109,7 @@ ErrorMessage.BackgroundTransparency = 1.000
 ErrorMessage.Position = UDim2.new(0.291111112, 0, 0.444444448, 0)
 ErrorMessage.Size = UDim2.new(0, 311, 0, 50)
 ErrorMessage.Font = Enum.Font.Gotham
-ErrorMessage.Text = "此版本已经过时。它已被转移到一个新的图形用户界面。要下载新版本白灰脚本！使用白灰脚本群号526684389"
+ErrorMessage.Text = "此版本已经过时。它已被转移到一个新的图形用户界面。要下载新版本白灰脚本！"
 ErrorMessage.TextColor3 = Color3.fromRGB(255, 255, 255)
 ErrorMessage.TextSize = 14.000
 ErrorMessage.TextWrapped = true
