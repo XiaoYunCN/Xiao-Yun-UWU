@@ -2,7 +2,7 @@ local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
 
-    Title = "白灰脚本",
+    Title = "🙂白灰脚本",
 
     Text = "白灰正在加载",
 
@@ -14,12 +14,21 @@ if game.PlaceId == 3101667897 then --极速传奇
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87.lua"))()
 
-elseif game.PlaceId == 311040439 then --飞行脚本
+elseif game.PlaceId == 3956818381 then --忍者传奇
 
-    loadstring(game:HttpGet("https://pastebin.com/raw/gqv7PXAa"))()
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E5%BF%8D%E8%80%85%E4%BC%A0%E5%A5%87.lua"))()
 
 else --白灰脚本
 
+	CoreGui:SetCore("SendNotification", {
+
+    Title = "警告",
+
+    Text = "不支持游戏哦，白灰脚本正在加载",
+
+    Duration = 3, 
+
+})
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E7%99%BD%E7%81%B0%E8%84%9A%E6%9C%AC.lua"))()
 
 end
