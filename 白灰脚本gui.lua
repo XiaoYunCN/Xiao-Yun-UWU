@@ -1,3 +1,15 @@
+local CoreGui = game:GetService("StarterGui")
+
+CoreGui:SetCore("SendNotification", {
+
+    Title = "白灰脚本",
+
+    Text = "白灰正在加载",
+
+    Duration = 3, 
+
+})
+
 if game.PlaceId == 3101667897 then --极速传奇
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87.lua"))()
