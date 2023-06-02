@@ -4,14 +4,18 @@
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
-
     Title = "白灰脚本",
-
-    Text = "白灰正在加载",
-
+    Text = "正在加载（反挂机已开启）",
     Duration = 3, 
-
 })
+
+print("Anti Afk On")
+		local vu = game:GetService("VirtualUser")
+		game:GetService("Players").LocalPlayer.Idled:connect(function()
+		   vu:Button2Down(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		   wait(1)
+		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
+		end)
 
 if game.PlaceId == 3101667897 then --极速传奇
 
@@ -29,16 +33,6 @@ elseif game.PlaceId == 3623096087 then --力量传奇
 
 	
 else --白灰脚本
-
-	CoreGui:SetCore("SendNotification", {
-
-    Title = "警告",
-
-    Text = "不支持游戏哦，白灰脚本正在加载",
-
-    Duration = 3, 
-
-})
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E7%99%BD%E7%81%B0%E8%84%9A%E6%9C%AC.lua"))()
 
 end
