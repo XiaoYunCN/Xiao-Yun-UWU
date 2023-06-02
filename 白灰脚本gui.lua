@@ -1,6 +1,7 @@
---小老弟，你真黑人
+--小老弟，你真黑人😡😡
 --小学生喜欢源码=你妈死了
 
+--加载脚本
 local CoreGui = game:GetService("StarterGui")
 
 CoreGui:SetCore("SendNotification", {
@@ -8,7 +9,7 @@ CoreGui:SetCore("SendNotification", {
     Text = "正在加载（反挂机已开启）",
     Duration = 3, 
 })
-
+--反挂机脚本
 print("Anti Afk On")
 		local vu = game:GetService("VirtualUser")
 		game:GetService("Players").LocalPlayer.Idled:connect(function()
@@ -17,6 +18,7 @@ print("Anti Afk On")
 		   vu:Button2Up(Vector2.new(0,0),workspace.CurrentCamera.CFrame)
 		end)
 
+--服务器
 if game.PlaceId == 3101667897 then --极速传奇
 
     loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E6%9E%81%E9%80%9F%E4%BC%A0%E5%A5%87.lua"))()
