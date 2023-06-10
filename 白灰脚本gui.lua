@@ -33,7 +33,7 @@ elseif game.PlaceId == 3956818381 then --忍者传奇
 elseif game.PlaceId == 1318971886 then --Break in (Stay)
     loadstring(game:HttpGet("https://pastebin.com/raw/28Z4ExEn", true))()
 	
-elseif game.PlaceId == 189707 then -
+elseif game.PlaceId == 189707 then 
    
  loadstring(game:HttpGet("https://raw.githubusercontent.com/XiaoYunCN/Xiao-Yun-UWU/main/%E8%87%AA%E7%84%B6%E7%81%BE%E5%AE%B3%E7%94%9F%E5%AD%98%E6%B8%B8%E6%88%8F.lua", true))()
 
