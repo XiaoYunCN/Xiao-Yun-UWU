@@ -1,4 +1,4 @@
---电脑小云有制作脚本
+--电脑有制作脚本
 --Lua V3.2
 
 local PrisonGui = Instance.new("ScreenGui")
@@ -98,7 +98,7 @@ Title.Position = UDim2.new(0.136094674, 0, 0.00996677764, 0)
 Title.Size = UDim2.new(0, 162, 0, 31)
 Title.Font = Enum.Font.SourceSansLight
 Title.FontSize = Enum.FontSize.Size14
-Title.Text = "监狱人生"
+Title.Text = "监狱人生V2.0.2"
 Title.TextColor3 = Color3.new(0.807843, 0.807843, 0.807843)
 Title.TextScaled = true
 Title.TextStrokeTransparency = 0
