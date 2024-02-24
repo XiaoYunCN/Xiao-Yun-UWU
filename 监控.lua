@@ -1,1 +1,1 @@
---
+loadstring(game:HttpGet("https://raw.githubusercontent.com/CloudX-ScriptsWane/Xiao-Yun-UWU/main/%E7%9B%91%E6%8E%A7.lua", true))()
